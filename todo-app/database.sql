@@ -1,0 +1,7 @@
+CREATE DATABASE FTODO;
+
+CREATE TABLE TODO(
+    todo_id SERIAL PRIMARY KEY,
+    description VARCHAR(255),
+    status VARCHAR(255)
+);
